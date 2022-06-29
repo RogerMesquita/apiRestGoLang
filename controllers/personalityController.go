@@ -16,7 +16,7 @@ func Home(w http.ResponseWriter, r *http.Request) {
 }
 
 func AllPersonalities(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
+
 	p := repository.FindAll()
 	json.NewEncoder(w).Encode(p)
 }
