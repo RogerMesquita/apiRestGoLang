@@ -8,10 +8,12 @@ import (
 func main() {
 	models.Personalities = []models.Personality{
 		{
+			Id:      1,
 			Name:    "Roger Mesquita",
 			History: "Tentando ser Programador",
 		},
 		{
+			Id:      2,
 			Name:    "Teste",
 			History: "demais",
 		},
